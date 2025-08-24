@@ -2,7 +2,61 @@
 
 A modern, responsive e-commerce platform built with React, featuring an elegant design, smooth animations, and intuitive user experience. Vervida offers a premium shopping experience with carefully curated products across multiple categories.
 
-![Vervida Logo](https://img.shields.io/badge/Vervida-Premium%20Shopping-6366f1?style=for-the-badge&logo=react)
+---
+
+## ⚡ Setup Instructions
+
+### Prerequisites
+- Node.js and npm installed
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/abdhullah200/Vervida-Online-Shopping-Store-React.git
+   ```
+2. Navigate to the project folder:
+   ```bash
+   cd Vervida-Online-Shopping-Store-React/vervida-react
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+### Running the App
+Start the development server:
+```bash
+npm start
+```
+Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+---
+
+## 📋 Approach & Assumptions
+
+### Approach
+- Component-driven architecture: UI is split into reusable, modular React components for maintainability and scalability.
+- State management via React hooks (useState, useEffect, custom hooks like useCart).
+- Responsive design using CSS and Bootstrap for mobile and desktop compatibility.
+- Mock data is used for products; no backend/API integration.
+- Focus on accessibility, performance, and clean code practices.
+
+### Assumptions
+- All product data is static and stored locally (no API calls).
+- No user authentication or payment processing is implemented.
+- Cart state is persisted using browser localStorage.
+- Application is expected to run in modern browsers supporting ES6+ and React 18.
+- The assessment focuses on front-end skills only.
+
+## ➕ Additional Features
+- Dark theme integration for improved user experience.
+- Animated transitions and UI feedback using Framer Motion and React Hot Toast.
+- Advanced search with real-time highlighting.
+- Persistent cart with quantity management and notifications.
+- Accessibility features: semantic HTML, ARIA labels, keyboard navigation.
+
+
+A modern, responsive e-commerce platform built with React, featuring an elegant design, smooth animations, and intuitive user experience. Vervida offers a premium shopping experience with carefully curated products across multiple categories.
 
 ## ✨ Features
 
@@ -269,18 +323,5 @@ For any questions, please refer to the assessment PDF or contact the project mai
 npm run build
 # or
 yarn build
-```
-
-### Deploy to Netlify
-
-1. Build the project
-2. Upload `build` folder to Netlify
-3. Configure redirects for SPA
-
-### Deploy to Vercel
-
-```bash
-npm install -g vercel
-vercel --prod
 ```
 
