@@ -122,3 +122,39 @@ section {
 .offcanvas.show {
   z-index: 1060 !important;
 }
+
+/* Custom Pagination Styles */
+.vervida-pagination-item:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 16px rgba(99, 102, 241, 0.4) !important;
+}
+
+.pagination .page-link {
+  border-radius: 50% !important;
+  margin: 0 2px;
+  min-width: 45px;
+  height: 45px;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.pagination .page-link:focus {
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.2);
+  outline: none;
+}
+
+.pagination .page-item.disabled .page-link {
+  background-color: #f8f9fa;
+  border-color: #e5e7eb;
+  color: #9ca3af;
+  cursor: not-allowed;
+}
+
+.pagination .page-item:not(.disabled) .page-link:hover {
+  background-color: rgba(99, 102, 241, 0.1);
+  border-color: var(--vervida-primary);
+  color: var(--vervida-primary);
+}
