@@ -284,37 +284,3 @@ npm install -g vercel
 vercel --prod
 ```
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📧 Contact & Support
-
-- **Email**: support@vervida.com
-- **Website**: [vervida.com](https://vervida.com)
-- **Issues**: [GitHub Issues](https://github.com/yourusername/vervida-online-shopping-store/issues)
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- **React Team** for the amazing framework
-- **Bootstrap Team** for the responsive components
-- **Framer Motion** for the smooth animations
-- **Unsplash** for the beautiful product images
-- **React Icons** for the comprehensive icon library
-
----
-
-<div align="center">
-  <p>Made with ❤️ by the Vervida Team</p>
-  <p>
-    <a href="#top">Back to Top ⬆️</a>
-  </p>
-</div>
