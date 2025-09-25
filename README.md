@@ -244,3 +244,16 @@ yarn build
 npm install -g vercel
 vercel --prod
 ```
+
+
+<div align="center">
+  
+### 💜 Made with Love and Code by Abdullah Ariff
+
+**If you found this project helpful, please consider giving it a ⭐ on GitHub!**
+
+[![GitHub Stars](https://img.shields.io/github/stars/abdhullah200/Bloggy?style=social)](https://github.com/abdhullah200/Bloggy)
+[![GitHub Forks](https://img.shields.io/github/forks/abdhullah200/Bloggy?style=social)](https://github.com/abdhullah200/Bloggy/fork)
+[![GitHub Issues](https://img.shields.io/github/issues/abdhullah200/Bloggy)](https://github.com/abdhullah200/Bloggy/issues)
+
+</div>
